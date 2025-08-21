@@ -14,6 +14,7 @@ public class User {
     private int followingCount;
     private int postCount;
     private Date creatAt; // thoi gian tao tai khoan
+    private Date updateAt; // thoi gian cap nhat cuoi cung
     private Date birthDay;
     private List<String> followers;
     private List<String> following;
@@ -37,7 +38,7 @@ public class User {
         this.following = new ArrayList<>();
     }
 
-    // getter
+    // getter & setter 
 
     public String getUserid() {
         return userId;
@@ -133,5 +134,13 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public Date getUpdateAt() {
+        return updateAt;
+    }
+
+    public void setUpdateAt(Date updateAt) {
+        this.updateAt = updateAt;
     }
 }
