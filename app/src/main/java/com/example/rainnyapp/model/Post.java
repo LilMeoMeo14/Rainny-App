@@ -3,7 +3,7 @@ package com.example.rainnyapp.model;
 import java.util.Date;
 
 public class Post {
-   private String id;
+   private String postId;
    private String userId;
 
    private String content;
@@ -14,14 +14,15 @@ public class Post {
    private int shareCount;
    private boolean isDeleted;
    private Date createAt;
+   private Date updateAt;
    private User user;
 
 
    public Post(){}
 
    // constructor
-    public Post(String id, String userId, String content, String imgUrl, String vidUrl, int likeCount, int commentCount, int shareCount, boolean isDeleted, Date createAt, User user) {
-        this.id = id;
+    public Post(String postId, String userId, String content, String imgUrl, String vidUrl, int likeCount, int commentCount, int shareCount, boolean isDeleted, Date createAt, Date updateAt,User user) {
+        this.postId = postId;
         this.userId = userId;
         this.content = content;
         this.imgUrl = imgUrl;
@@ -31,18 +32,19 @@ public class Post {
         this.shareCount = shareCount;
         this.isDeleted = isDeleted;
         this.createAt = createAt;
+        this.updateAt = updateAt;
         this.user = user;
     }
 
     //setter getter
 
 
-    public String getId() {
-        return id;
+    public String getPostId() {
+        return postId;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setPostId(String postId) {
+        this.postId = postId;
     }
 
     public Date getCreateAt() {
@@ -115,6 +117,14 @@ public class Post {
 
     public void setDeleted(boolean deleted) {
         isDeleted = deleted;
+    }
+
+    public Date getUpdateAt() {
+        return updateAt;
+    }
+
+    public void setUpdateAt(Date updateAt) {
+        this.updateAt = updateAt;
     }
 
     public User getUser() {
