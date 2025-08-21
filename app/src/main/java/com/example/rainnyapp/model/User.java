@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.List;
 
 public class User {
-    private String userid;
+    private String id;
     private String username;
     private String email;
     private String profilePic;
@@ -22,8 +22,8 @@ public class User {
     public User(){}
 
     // ham khoi tao co tham so
-    public User(String userid,String username,String email, String profilePic, String bio, Date creatAt,Date birthDay){
-        this.userid = userid;
+    public User(String id,String username,String email, String profilePic, String bio, Date creatAt,Date birthDay){
+        this.id = id;
         this.username = username;
         this.email = email;
         this.profilePic = profilePic;
@@ -40,11 +40,11 @@ public class User {
     // getter
 
     public String getUserid() {
-        return userid;
+        return id;
     }
 
-    public void setUserid(String userid) {
-        this.userid = userid;
+    public void setUserid(String id) {
+        this.id = id;
     }
 
     public String getUsername() {
