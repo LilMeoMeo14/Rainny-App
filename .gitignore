@@ -1,0 +1,57 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local configuration file (SDK path, keystore passwords, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Keystore files
+*.jks
+*.keystore
+
+# External native build
+.cxx/
+
+# Generated files
+captures/
+outputs/
+
+# Gradle wrapper jar files should be tracked but not the properties
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Other files
+.DS_Store
+Thumbs.db
+
+# APKs
+*.apk
+*.ap_
+*.aab
+
