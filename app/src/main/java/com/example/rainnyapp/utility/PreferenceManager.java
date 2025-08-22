@@ -170,7 +170,6 @@ public class PreferenceManager {
     }
 
     //Get User infomation for Debugging
-
     public String getUserInfo(){
         return "UserID: " + getUserId() +
                 ", Username: " + getUserName() +

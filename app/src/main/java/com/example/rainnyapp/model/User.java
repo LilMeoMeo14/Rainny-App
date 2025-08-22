@@ -38,7 +38,7 @@ public class User {
         this.following = new ArrayList<>();
     }
 
-    // getter & setter 
+    // getter & getter
 
     public String getUserid() {
         return userId;

@@ -1,4 +1,4 @@
-package com.example.rainnyapp;
+package com.example.rainnyapp.activity;
 
 import android.os.Bundle;
 
@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.example.rainnyapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
