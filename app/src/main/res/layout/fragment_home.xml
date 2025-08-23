@@ -6,16 +6,13 @@
     android:orientation="vertical"
     android:fitsSystemWindows="true">
 
-    <!-- Thanh trên cùng -->
     <RelativeLayout
         android:id="@+id/topBar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
         android:paddingHorizontal="16dp"
         android:paddingVertical="8dp">
 
-        <!-- Logo App -->
         <ImageView
             android:id="@+id/appLogo"
             android:layout_width="40dp"
@@ -24,7 +21,6 @@
             android:layout_centerInParent="true"
             android:contentDescription="App Logo" />
 
-        <!-- Icon Search  -->
         <ImageView
             android:id="@+id/btnSearch"
             android:layout_width="30dp"
